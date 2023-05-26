@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .btn-group-vertical {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="mt-5" style="margin-left: 250px;">Student Management System</h2>
+
+        <div class="btn-group-vertical mt-4">
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="location.href='addUser.html'">Add New User</button>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="location.href='getAllUsers.php'">Get All
+                Users</button>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="location.href='updateUser.html'">Edit User</button>
+            <br>
+            <button type="button" class="btn btn-danger" onclick="location.href='deletuser.html'">Delete
+                User</button>
+
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+
+        function getAllUsers() {
+            // Implement the logic to get all users
+            console.log("Get All Users clicked");
+        }
+
+        function editUser() {
+            // Implement the logic to edit a user
+            console.log("Edit User clicked");
+        }
+
+        function deleteUser() {
+            // Implement the logic to delete a user
+            console.log("Delete User clicked");
+        }
+    </script>
+</body>
+
+</html>
